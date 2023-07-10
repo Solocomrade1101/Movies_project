@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <title>MOVIES</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__video">
+      <video src="./video/theboys.webm" autoplay muted></video>
+    </div>
+      <div class="navigation">
+        <div class="navigation__logo">
+          <p class="navigation__logo-text">
+            Movies
+          </p>
+          <div class="navigation__logo-img">
+            <img src="./img/logo.png" alt="logo">
+          </div>
+        </div>
+        <ul class="navigation__menu">
+          <li class="navigation__item"><a href="./index.html" class="navigation__link" id="home">Home</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link" id="series">Series</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link" id="movies">Movies</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link" id="new">New</a></li>
+        </ul>
+        <div class="navigation__search">
+          <input id="input_search" type="text" placeholder="Search...">
+          <div class="navigation__search-result">
+            <!-- <a href="#"  class="navigation__search-result-card card">
+              <img src="img/the_boys.jpg" alt="avatar">
+              <div class="card__description">
+                <h3 class="card__title">The Boys </h3>
+                <p class="card__text">Action, 2021, <span>IMDB</span><i class="bi bi-star-fill"></i> 9.6</p>
+              </div>
+            </a> -->
+          </div>
+        </div>
+      </div>
+    
+    <div class="header__content">
+      <h1 class="header__content-title">Money Heist</h1>
+      <p class="header__content-text">The film based on the true story of the 'Samrye Nara Super Incident' that occurred in Wanju County, depicts the story of re-investigation of the boys who were ...</p>
+      <div class="header__content-details">
+        <h6>A Netflix Original Film</h6>
+        <h5 id="gen">Thriller</h5>
+        <h4 id="date">2021</h4>
+        <h3 id="rate"><span>IMDB</span><i class="bi bi-star-fill"></i> 9.6</h3>
+      </div>
+      <div class="header__content-btns">
+        <button class="button" id="play" ><span>Pause</span> <i class="bi bi-pause-fill"></i></button>
+        <button class="button" id="download"><i class="bi bi-download"></i></button>
+      </div>
+    </div>
+
+    <section class="popular">
+      <h4 class="popular__title">Popular</h4>
+      <i class="bi bi-chevron-left" ></i>
+      <i class="bi bi-chevron-right"></i>
+      <div class="popular__items">
+        
+
+
+        
+      </div>
+    </section>
+  </header>
+
+
+
+
+
+
+  <script src="./src/index.js"></script>
+</body>
+
+</html>
